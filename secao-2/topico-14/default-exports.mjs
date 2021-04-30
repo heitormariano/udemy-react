@@ -13,5 +13,5 @@ const myAverage = (values) => {
   return avg;
 };
 
-export default mySum;
-// export default myAverage;
+//export default mySum;
+export default myAverage;

@@ -2,22 +2,22 @@ const languages = ['Javascript', 'Python', 'Java', 'C#'];
 
 // using arrow functions
 
-let printLength = (languages) => console.log(languages.map((elem) => elem.length));
+const printLength = (languages) => console.log(languages.map((language) => language.length));
 
 console.log('Arrow Function:');
 printLength(languages);
 
 //traditional form
-printLength = function (languages) {
+printLengthTraditional = function (languages) {
   console.log(
-    languages.map(function (elem) {
-      return elem.length;
+    languages.map(function (language) {
+      return language.length;
     })
   );
 };
 
 console.log('Traditional Form:');
-printLength(languages);
+printLengthTraditional(languages);
 
 // more arrow functions
 

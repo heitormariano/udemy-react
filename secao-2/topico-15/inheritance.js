@@ -3,7 +3,7 @@ class Human {
     this.gender = gender;
   }
 
-  printMyGender() {
+  printGender() {
     console.log(this.gender);
   }
 }
@@ -23,4 +23,4 @@ class Person extends Human {
 
 const person01 = new Person('Carlos', 'Alencar', 28, 'Male');
 console.log(person01.getFullName());
-person01.printMyGender();
+person01.printGender();
